@@ -83,7 +83,7 @@ const Translator = () => {
         body: JSON.stringify({
           text: transcript,
           language: 'pt-BR'
-        })
+        }) 
       }).then(r => r.json());
 
       setTranslation(results.text);
